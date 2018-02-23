@@ -1,0 +1,73 @@
+
+
+
+    *{
+    font-family: 'Arimo', sans-serif;
+    cursor: url(https://cdn.glitch.com/c07a0d2b-6edb-48f9-9c3f-41402a9f359b%2F33.png?1519334343320), auto ;
+    color: white;
+    font-size:11px;
+    }
+
+    body{
+    background-color: black;
+    }
+
+
+    video {
+      position:absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%,-50%);
+      padding:10px;
+    }
+
+
+  
+  div{
+  cursor: pointer !important; 
+  }
+
+  .point,img,a {
+  cursor: pointer !important; 
+  }
+
+  .magic{
+   display:none;
+  }
+
+  #bgm {
+  cursor: pointer !important; 
+  }
+
+  
+
+
+
+
+
+#soundcloud {
+  position:absolute;
+  bottom:5%;
+  left:100px;
+  padding:10px;
+  width:100%;
+  box-sizing:border-box;
+  
+}
+
+@media all and (min-width:640px) and (max-width:736px) {
+  
+  #soundcloud {
+  position:static;
+  bottom:0%;
+  left:0px;
+  padding-top:50%;
+  width:100%;
+  box-sizing:border-box;
+}
+
+  
+
+
+}
+      
