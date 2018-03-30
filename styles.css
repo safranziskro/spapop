@@ -2,72 +2,125 @@
 
 
     *{
-    font-family: 'Arimo', sans-serif;
+    /*font-family: 'Arimo', sans-serif;*/
+    font-family: 'Helvetica', sans-serif;
     cursor: url(https://cdn.glitch.com/c07a0d2b-6edb-48f9-9c3f-41402a9f359b%2F33.png?1519334343320), auto ;
     color: white;
-    font-size:11px;
+    font-size:12.7px;
+    font-style: oblique;
+    
     }
+
 
     body{
-    background-color: black;
+    background: linear-gradient(-90deg, 	#817e7e, 	#999966)
+    }	
+
+    h2{
+    text-align: center;
+    }
+
+    div{
+    cursor: pointer !important;
+
+    }
+
+ 
+    #mc,#vim,#sc{
+    margin-top: 20vh;
+    margin-bottom: 2vh;
+    margin-right: 20px;
+    margin-left: 7vw;
+    display: inline-block;
+    }
+
+    .link {
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 7vw;
+    }
+
+    .linkhold {
+    font-size: 12.5px !important; 
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 7vw;
+    }
+
+    
+
+    .point,img,a {
+    cursor: pointer !important; 
     }
 
 
-    video {
-      position:absolute;
-      left:50%;
-      top:50%;
-      transform:translate(-50%,-50%);
-      padding:10px;
+
+    #bgm {
+    cursor: pointer !important; 
+    }
+
+    
+
+
+   .transparentesGlas{
+    
+    margin-left:5vw;
+    margin-top:10vh;
+    margin-right:3vw;
+    margin-bottom:2vh;
+    padding:30px;
+    
+     
+    -moz-box-shadow: inset 0 0 15px 5px rgba(200,200,200, .9);
+    -webkit-box-shadow: inset 0 0 15px 5px rgba(200,200,200, .9);
+    box-shadow: inset 0 0 15px 5px rgba(200,200,200, .9);
+    border-radius: 40px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    
     }
 
 
+
+
+  .transparentesGlas::after{
+    
+    content: "";
+    background: 
+     url('https://cdn.glitch.com/2e1967da-a883-403c-ab8c-8db5a4a6cbab%2F3041841472-67fb178aea-z-640x350.jpg?1522421373079');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    
+    
+    
   
-  div{
-  cursor: pointer !important; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     
+  
+   
+    border-radius: 40px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    
+    }
+
+
+
+
+
+  @media all and (min-width:640px) and (max-width:736px) {
+
+
+
   }
-
-  .point,img,a {
-  cursor: pointer !important; 
-  }
-
-  .magic{
-   display:none;
-  }
-
-  #bgm {
-  cursor: pointer !important; 
-  }
-
-  
-
-
-
-
-
-#soundcloud {
-  position:absolute;
-  bottom:5%;
-  left:100px;
-  padding:10px;
-  width:100%;
-  box-sizing:border-box;
-  
-}
-
-@media all and (min-width:640px) and (max-width:736px) {
-  
-  #soundcloud {
-  position:static;
-  bottom:0%;
-  left:0px;
-  padding-top:50%;
-  width:100%;
-  box-sizing:border-box;
-}
-
-  
-
-
-}
-      
