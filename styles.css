@@ -6,7 +6,7 @@
     font-family: 'Helvetica', sans-serif;
     cursor: url(https://cdn.glitch.com/c07a0d2b-6edb-48f9-9c3f-41402a9f359b%2F33.png?1519334343320), auto ;
     color: white;
-    font-size:12.7px;
+    font-size:12.9px;
     font-style: oblique;
     
     }
@@ -49,6 +49,14 @@
     margin-bottom: 100px;
     margin-right: 10px;
     margin-left: 7vw;
+    }
+
+    .e-mail{
+    display: inline-block;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-right: 20px;
+    margin-left: 20vw;
     }
 
     
